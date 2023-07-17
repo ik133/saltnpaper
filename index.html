@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salt & Paper Resturent Lahore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+
+    <style>
+        .all {
+            background-color: #000000;
+
+        }
+
+        ul.navo {
+            display: flex;
+            list-style-type: none;
+            gap: 100px;
+            align-items: center;
+
+        }
+
+        .nav-bar {
+            padding: 10px 200px;
+            background-color: black;
+            color: white;
+            align-self: flex-end;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            justify-content: center;
+
+        }
+
+        .order {
+
+            background-color: #ed1c24;
+            border-radius: 50px;
+            border: 34px solid #ed1c24;
+            align-self: flex-end;
+        }
+
+        .menu {
+            text-align: center;
+            background-color: #0f0f0f;
+            color: white;
+            padding: 50px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .soap {
+            text-align: center;
+            background-color: #000000;
+            padding: 30px;
+            color: white;
+        }
+
+        h2.soap1 {
+            text-align: center;
+        }
+
+        img {
+            padding: 1px -212px;
+        }
+
+        h2 {
+            text-align: center;
+            color: white;
+            padding: 1px;
+        }
+
+        .column {
+            float: left;
+            padding: 5px;
+        }
+
+
+        .row:: {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .white {
+            color: white;
+            text-align: center;
+        }
+
+        .img {
+            display: flex;
+            list-style-type: none;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+
+        .text {
+            font-size: 20px;
+            padding-left: 329px;
+            color: white;
+        }
+
+        .image {
+            justify-content: flex-start;
+        }
+
+        .dis {
+            padding: -2px 450px;
+        }
+
+        .order2 {
+
+            background-color: #aba4a4;
+            border-radius: 50px;
+            border: 17px solid #ffffff;
+            align-self: flex-end;
+        }
+
+        .deals {
+            align-items: center;
+            text-align: center;
+            font-size: larger;
+        }
+
+        .backcolor {
+            background-color: #0f0f0f;
+        }
+
+        * {
+            box-sizing: border-box;
+            font-family: 'Noto Sans', sans-serif;
+            ;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 0;
+            padding: 5px;
+
+        }
+
+        .dealh1 {
+            color: white;
+            font-size: small;
+        }
+
+        .order3 {
+
+            background-color: red;
+            border-radius: 50px;
+            border: 17px solid red;
+            padding: 0px 49px 1px;
+        }
+
+
+
+        .footer-clean {
+  padding:50px 0;
+  background-color:#000000;
+  color:#ffffff;
+}
+
+.footer-clean h3 {
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .item.social {
+  text-align:right;
+}
+
+@media (max-width:767px) {
+  .footer-clean .item {
+    text-align:center;
+    padding-bottom:20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-clean .item.social {
+    text-align:center;
+  }
+}
+
+.footer-clean .item.social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  border-radius:50%;
+  border:1px solid #ccc;
+  margin-left:10px;
+  margin-top:22px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-clean .item.social > a:hover {
+  opacity:0.9;
+}
+
+@media (max-width:991px) {
+  .footer-clean .item.social > a {
+    margin-top:40px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer-clean .item.social > a {
+    margin-top:10px;
+  }
+}
+
+.footer-clean .copyright {
+  margin-top:14px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
+
+/* Credit to https://epicbootstrap.com/snippets/footer-with-columns */
+
+
+    </style>
+</head>
+
+<body>
+    <div class="all">
+        <div class="nav-bar">
+            <ul class="navo">
+                <li><img src="assets/salt n paper.jpg" alt="" width="150px"></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Publication</a></li>
+                <li><a href="#">Get a Frenchise</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li class="order"><a href="#">Order Online<i>&#xf35a;</i></a></li>
+                <li><a href="#"><i class="fa fa-shopping-cart" style="font-size:48px;color:rgb(245, 245, 245)"></i></a></li>
+            </ul>
+
+        </div>
+        <span>
+            <img src="https://static.tossdown.com/images/9386028a-054c-47eb-a9a0-937d033c290f.webp" alt=""
+                width="1900px">
+        </span>
+        <h2>Choose By Category</h2>
+        <ul class="img">
+            <li class="img2"><img src="https://static.tossdown.com/images/7b352623-372e-4582-889b-5668e7b279b3.webp"
+                    alt="" width="300px">
+                <p class="white">Small Bites</p>
+            </li>
+            <li class="img2"><img src="https://static.tossdown.com/images/174d23fc-3897-43ed-a20b-15c78613d2ec.webp"
+                    alt="" width="300px">
+                <p class="white">Soup</p>
+            </li>
+            <li class="img2"><img src="https://static.tossdown.com/images/5040fa98-dfb9-46ea-88ea-295ca3c566cc.webp"
+                    alt="" width="300px">
+                <p class="white">Sanwitches</p>
+            </li>
+        </ul>
+        <br>
+        <ul class="img">
+            <li class="img2"><img src="https://static.tossdown.com/images/f0c37e1e-408c-4a4d-b47f-71727066d8f0.webp"
+                    alt="" width="300px">
+                <p class="white">Burger</p>
+            </li>
+            <li class="img2"><img src="https://static.tossdown.com/images/a3413da5-19f0-43d1-aa74-724a623759c6.webp"
+                    alt="" width="340px">
+                <p class="white">Deal</p>
+            </li>
+            <li class="img2"><img src="https://static.tossdown.com/images/333353e8-2e6c-4c57-ac79-cb9461dbda6a.webp"
+                    alt="" width="300px">
+                <p class="white">Steaks</p>
+            </li>
+        </ul><br>
+        <span class="backcolor">
+            <div class="container">
+                <div class="image">
+                    <img src="https://static.tossdown.com/images/f3b56ca1-145e-42f0-aacc-10106f79a557.webp">
+                </div>
+                <div class="text">
+                    <h2 class="dis" style="color: #ed1c24;">S A L T n P A P E R </h2>
+                    <h1 class="dis">Discover Your Taste!</h1>
+                    <p class="dis" style="font: size 20px;">The Salt’n Pepper is Pakistan’s most recognized and
+                        distinguished hospitality brand with
+                        a history of market innovation and excellence in restaurants chain operation. The Salt’n Pepper
+                        Restaurants are regarded and respected as the number one restaurant entity in Pakistan by local
+                        andforeign observers.</p>
+                        
+                    <ul class="navo">
+                        <li class="order2"><a href="#">Learn More<i>&#xf35a;</i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </span>
+        <br><br><br>
+        <div class="deals">
+            <h2>Our Deals</h2>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="https://static.tossdown.com/images/600/3c157102-7547-4ce2-8798-5dd84a95180d.webp" alt="Snow"
+                    style="width:300px">
+                <h2 class="dealh">Superior</h2>
+                <p class="dealh1">Fried Chicken (2 Pcs), Chicken Sandwich Cold (2 Pcs),</p>
+                <h2 class="dealh">PKR 1,390</h2>
+                <ul class="navo">
+                    <li class="order3"><a href="#">Order Online</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="https://static.tossdown.com/images/600/dc118318-e792-40bb-a0e5-42351937e705.webp" alt="Forest"
+                    style="width: 300px;">
+                <h2 class="dealh">Pakistani B.B.Q</h2>
+                <p class="dealh1">Chicken Tikka (1 Piece), Chicken Seekh Kabab (3 Pcs)</p>
+                <h2 class="dealh">PKR 1,630</h2>
+                <ul class="navo">
+                    <li class="order3"><a href="#">Order Online</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="https://static.tossdown.com/images/600/b5f68410-f05b-4acf-9d9e-2e9ce8db880d.webp"
+                    alt="Mountains" style="width: 300px;">
+                <h2 class="dealh">Pakistani Deluxe</h2>
+                <p class="dealh1">Boneless Chicken Handi (Portion), Chicken Seekh Kabab</p>
+                <h2 class="dealh">PKR 1,490</h2>
+                <ul class="navo">
+                    <li class="order3"><a href="#">Order Online</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="https://static.tossdown.com/images/600/c94123e0-14f4-480d-b333-4072c18a06d8.webp"
+                    alt="Mountains" style="width:265px">
+                <h2 class="dealh">VIP</h2>
+                <p class="dealh1">Chicken Shashik (1/2 Portion) Chicken Sandwich Cold.</p>
+                <h2 class="dealh">PKR 1,890</h2>
+                <ul class="navo">
+                    <li class="order3"><a href="#">Order Online</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="https://static.tossdown.com/images/600/91d88cf5-1eed-428e-b817-6e246a4326b1.webp"
+                    alt="Mountains" style="width:300px">
+                <h2 class="dealh">Deluxe</h2>
+                <p class="dealh1">Fried Chicken Breast Sandwich, Chicken Nuggets (4 Pcs),</p>
+                <h2 class="dealh">PKR 1,790</h2>
+                <ul class="navo">
+                    <li class="order3"><a href="#">Order Online</a></li>
+                </ul>
+            </div>
+            <div class="column">
+                <img src="https://static.tossdown.com/images/600/af6ad03f-ff7e-4b94-bd87-439e603e4fd3.webp"
+                    alt="Mountains" style="width:265px">
+                <h2 class="dealh">Pakistani VIP</h2>
+                <p class="dealh1">Boneless Chicken Handi (Portion), Boneless Chicken Boti</p>
+                <h2 class="dealh">PKR 1,890</h2>
+                <ul class="navo">
+                    <li class="order3"><a href="#">Order Online</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="image">
+                <img src="https://static.tossdown.com/images/f3b56ca1-145e-42f0-aacc-10106f79a557.webp">
+            </div>
+            <div class="text">
+                <h2 class="dis" style="color: #ed1c24;">MENU OF THE WEEK </h2>
+                <h1 class="dis">Something Special ForYou <br>To try This Week!</h1>
+                <p class="dis" style="font: size 20px;">Boneless Chicken Handi (Portion), Boneless Chicken Boti (4 Pcs),
+                    Chicken Seekh Kabab (3 Pcs), Vegetable Biryani, Mint Raita, Kachumar Salad, Nan, Dessert.</p>
+                    <h1>Pakistani VIP</h1>
+                    <h1>Price Rs 1,890 Plus Tax</h1>
+                <ul class="navo">
+                    <li class="order3"><a href="#">Order Online</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <div class="footer-clean">
+        <footer>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Services</h3>
+                        <ul>
+                            <li><a href="#">Fast Food</a></li>
+                            <li><a href="#">Chinees</a></li>
+                            <li><a href="#">Italian</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>About</h3>
+                        <ul>
+                            <li><a href="#">Restaurant</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Legacy</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4 col-md-3 item">
+                        <h3>Links</h3>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">tweeter</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 item social"><a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                        <p class="copyright">Company Name © 2023</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+
+
+
+
+    </div>
+    </div>
+</body>
+
+</html>
